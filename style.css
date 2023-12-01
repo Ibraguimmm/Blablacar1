@@ -127,6 +127,18 @@ margin-right: 20px;
 .input-submit:hover{
     background-color: #0d7097;
 }
+.input-submit_2{
+    color: #ffffff;
+    background-color: #00AFF5;
+    border: transparent;
+    border-radius: 25px;
+    height: 50px;
+    width: 230px;
+    font-size: large;
+}
+.photo6{
+    margin-left: 20px;
+}
 
 
 
