@@ -140,5 +140,22 @@ margin-right: 20px;
     margin-left: 20px;
 }
 
+.container_3_colonnestextes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px ;
+
+}
+
+.paragrpahe_colonne{
+    padding: 0 35px;
+}
+.entete_3_colonnes{
+    color: hsla(189, 89%, 17%, 1);
+    font-size: large;
+    font-weight: 600;
+    
+}
+
 
 
