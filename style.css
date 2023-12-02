@@ -58,12 +58,8 @@ a:hover {
     width: 200px;
 }
 
-.input1,
-.input2,
-.input3,
-.input4,
-.input5,
-.input-submit:hover {
+.input1,.input2,.input3,.input4,.input5,
+.input-submit,.input-submit_1,.input-submit_2,.input-submit_3,.input-submit_4:hover {
     cursor: pointer;
 }
 
@@ -123,7 +119,7 @@ a:hover {
 .textedelentete_sherlock_woomen{
     color: #ffffff;
 }
-.submit_4{
+.input-submit_4{
     font-size: large;
     font-weight: 500;
     height: 50px;
@@ -187,7 +183,7 @@ a:hover {
     width: 230px;
     font-size: large;
 }
-.submit_3{
+.input-submit_3{
     color: #ffffff;
     background-color: #00AFF5;
     border: transparent;
