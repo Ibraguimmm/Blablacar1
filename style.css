@@ -109,8 +109,32 @@ a:hover {
     justify-content: center;
     margin-top: 40px;
 }
+.container_principal_sherlock_woomen{
+    display: flex;
+    justify-content: center;
+    background-color: #00AFF5;
+    margin-top: 25px;
+}
+.entete_sherlock_woomen{
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.textedelentete_sherlock_woomen{
+    color: #ffffff;
+}
+.submit_4{
+    font-size: large;
+    font-weight: 500;
+    height: 50px;
+    border: transparent;
+    border-radius: 25px;
+    color: #00AFF5;
+    padding: 0px 20px;
+}
 
-.paragrpahe_du-container_principal{
+
+.paragrapahe_du_container_principal{
     margin-top: 60px;
 }
 
@@ -171,10 +195,7 @@ a:hover {
     border-radius: 25px;
     height: 50px;
     padding: 0px 10px;
-
-
 }
-
 .photo6 {
     margin-left: 20px;
 }
@@ -183,18 +204,15 @@ a:hover {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-
 }
 
-.paragrpahe_colonne {
+.paragrapahe_colonne {
     padding: 0 35px;
 }
-
 .entete_3_colonnes {
     color: hsla(189, 89%, 17%, 1);
     font-size: large;
     font-weight: 600;
-
 }
 .container_destinations{
     display: flex;
@@ -225,7 +243,3 @@ a:hover {
 
 
 
-.container-overflow{
-    /* overflow: hidden; */
-
-}
