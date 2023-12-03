@@ -265,6 +265,10 @@ a:hover {
     display: flex;
     padding: 20px 5px;
     color: #6F8B90;
+    font-weight: 500;
+}
+.footer_container_1:hover{
+    cursor: pointer;
 }
 .footer_container_2{
     display: flex;
