@@ -165,6 +165,13 @@ a:hover {
     justify-content: center;
 }
 
+.container_covoiturage_blablalife{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px 0px 120px;
+
+}
+
 .input-submit_1 {
     color: #ffffff;
     background-color: #00AFF5;
@@ -204,7 +211,7 @@ a:hover {
 .container_3_colonnestextes {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .paragrapahe_colonne {
@@ -251,6 +258,7 @@ a:hover {
 .titres_bas_de_page{
     font-size: larger;
     font-weight: 700;
+    /* margin-bottom: 30px; */
 }
 .langue{
     margin-top: 50px;
