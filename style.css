@@ -24,7 +24,7 @@ a:hover {
     width: 100%;
     position: fixed;
     height: 72px;
-    font-weight: 1200px;
+    font-weight: 500;
 }
 
 .container-navbar1 {
@@ -44,7 +44,7 @@ a:hover {
 .photo2 {
     margin-top: 73px;
     width: 100%;
-    height: 282px;
+    height: auto
 }
 
 .input1,
@@ -69,7 +69,8 @@ a:hover {
 
 .input1 {
     height: 47px;
-    border-radius: 13px 0 0 13px;
+    /* border-radius: 13px 0 0 13px; */
+   
 }
 
 .input2 {
@@ -86,11 +87,6 @@ a:hover {
     border-width: 1px;
 }
 
-.image-main4 {
-    position: absolute;
-    right: 155px;
-    top: 14px;
-}
 
 .input5 {
     color: rgb(255, 255, 255);
@@ -99,10 +95,18 @@ a:hover {
     border-radius: 0 13px 13px 0;
 }
 
-
+.main{
+    display: flex;
+}
 .image-main {
-    position: absolute;
-    top: 10px
+  background: #fffdfd;
+  height: 47px;
+  width: 40px,  
+}
+.container_principal_navbar_2{
+    display: flex;
+    justify-content: center;
+    margin-top: -55px;
 }
 
 .container_principal {
@@ -210,8 +214,11 @@ a:hover {
 
 .container_3_colonnestextes {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 10px;
+    background-color: #ebebeb;
+    padding: 0px 10px;
+
 }
 
 .paragrapahe_colonne {
@@ -248,12 +255,12 @@ a:hover {
 }
 
 .quatres_colonnes_bas_de_page{
-    line-height: 50px;
-    padding: 0px 70px;
+    line-height: 40px;
     color: #054652;
-    font-weight: 500;
-    background-color: #e7e7e7;
-   
+    font-weight: 600;
+    padding: 0px 10px;
+    font-size: 15px;
+    
 }
 .titres_bas_de_page{
     font-size: larger;
@@ -272,7 +279,7 @@ a:hover {
 .footer_container_1{
     display: flex;
     padding: 20px 5px;
-    color: #6F8B90;
+    color: #6F8B90 ;
     font-weight: 500;
 }
 .footer_container_1:hover{
