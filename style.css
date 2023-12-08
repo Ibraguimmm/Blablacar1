@@ -13,6 +13,12 @@ a:hover {
     transition: 0.5s;
 }
 
+.container-navbar1 {
+    display: flex;
+    padding-left: 24px;
+    align-items: center;
+    font-weight: bolder;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -25,13 +31,37 @@ a:hover {
     position: fixed;
     height: 72px;
     font-weight: 500;
+    z-index: 1000;
 }
 
-.container-navbar1 {
+.big_container{
     display: flex;
-    padding-left: 24px;
-    align-items: center;
-    font-weight: bolder;
+    justify-content: center;
+}
+
+.container_position_relative{
+    position: relative;
+    /* display: inline-block; */
+    z-index: 998;
+    display: flex;
+    justify-content: center;
+}
+.texte_position_absolute{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    top: 30px;
+}
+
+
+.container_principal_navbar_2{
+    display: flex; 
+    margin-top: -30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    position: absolute;
+    z-index: 999;
 }
 
 .container-navbar2 {
@@ -60,7 +90,7 @@ input::placeholder{
 .input5 {
     border-width: 0.1px;
     border: transparent;
-    width: 170px;
+    width: 190px;
 }
 
 .input1,.input2,.input3,.input4,.input5,
@@ -134,15 +164,6 @@ input::placeholder{
     height: 25px;
 }
 
-.container_principal_navbar_2{
-    display: flex;
-    width: max-content;
-    margin-left: 200px;
-    margin-top: -30px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-
-}
 
 .container_principal {
     display: flex;
@@ -170,11 +191,13 @@ input::placeholder{
     border: transparent;
     border-radius: 25px;
     color: #00AFF5;
-    padding: 0px 20px;
+    padding: 0;
+    margin-left: -8px;
+
 }
 
 
-.paragrapahe_du_container_principal{
+.paragraphe_du_container_principal{
     margin-top: 60px;
 }
 
@@ -200,14 +223,13 @@ input::placeholder{
 }
 
 .container-input-submit {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
 }
 
 .container_covoiturage_blablalife{
     display: flex;
     justify-content: space-between;
-    margin: 0px 120px 0px 120px;
+    margin: 0px 65px 0px 65px;
 
 }
 
@@ -255,7 +277,7 @@ input::placeholder{
 }
 .container_3_colonnestextes_footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 10px;
     width: 100%;
     background-color: #f0f0f0;
@@ -299,7 +321,7 @@ input::placeholder{
     line-height: 40px;
     color: #054652;
     font-weight: 600;
-    padding: 0px 10px;
+    padding: 0px -10px;
     font-size: 15px;  
 }
 .titres_bas_de_page{
@@ -321,13 +343,13 @@ input::placeholder{
     padding: 20px 5px;
     color: #6F8B90 ;
     font-weight: 500;
+    
 }
 .footer_container_1:hover{
     cursor: pointer;
 }
 .footer_container_2{
-    display: flex;
-    justify-content: start;
+    margin-right: 20px;
 }
 
 
